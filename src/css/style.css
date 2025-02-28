@@ -704,7 +704,7 @@ h2::after {
 }
 
 .github-icon {
-    color: #181717 !important; /* GitHub black */
+    color: var(--text-color) !important;
 }
 
 /* Contact Section */
@@ -758,7 +758,7 @@ h2::after {
 }
 
 .contact-item:has(.github-icon) a:hover {
-    color: #181717; /* GitHub black */
+    color: var(--text-color);
 }
 
 /* Footer */
@@ -859,9 +859,38 @@ footer::before {
     }
 
     /* Adjust contact section for mobile */
+    .contact-content {
+        padding: 1rem;
+    }
+
     .contact-item {
+        flex-direction: row;
+        text-align: left;
         padding: 1.5rem;
-        margin: 0 1rem;
+        margin-bottom: 1rem;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .contact-item i {
+        font-size: 1.5rem;
+        flex-shrink: 0;
+    }
+
+    .contact-details {
+        margin: 0;
+        flex: 1;
+    }
+
+    .contact-details h3 {
+        font-size: 1.1rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .contact-details p, 
+    .contact-details a {
+        font-size: 0.9rem;
+        word-break: break-word;
     }
 
     /* Hide scroll indicator on mobile */
