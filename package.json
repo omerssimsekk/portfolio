@@ -1,23 +1,32 @@
 {
   "name": "portfolio-website",
   "version": "1.0.0",
-  "description": "A portfolio website for a computer science student showcasing projects and skills.",
+  "description": "A modern portfolio website for a computer science student showcasing projects and skills.",
   "main": "src/index.html",
   "scripts": {
-    "start": "live-server src",
-    "build": "echo 'Build script not defined'",
-    "test": "echo 'Test script not defined'"
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build",
+    "export": "next export",
+    "lint": "next lint"
   },
   "keywords": [
     "portfolio",
     "website",
     "computer science",
-    "projects"
+    "projects",
+    "vercel",
+    "next.js"
   ],
-  "author": "Your Name",
+  "author": "Ömer Faruk Şimşek",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.0.4"
   }
 }

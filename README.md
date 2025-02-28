@@ -1,66 +1,119 @@
-# Portfolio Website
+# Modern Portfolio Website Template
 
-This is a portfolio website created by a computer science student to showcase projects, skills, and personal information.
+A clean, responsive portfolio website template for developers, designers, and creative professionals. Showcase your projects, skills, and experience with a modern, customizable design.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fomerssimsekk%2Fportfolio)
+
+## Features
+
+- **Responsive Design**: Looks great on all devices - mobile, tablet, and desktop
+- **Dark/Light Mode Toggle**: Switch between dark and light themes with a single click
+- **Modern UI**: Clean, professional design with smooth animations and transitions
+- **Project Showcase**: Highlight your best work with dedicated project cards
+- **Skills Section**: Display your technical skills with custom icons
+- **Contact Information**: Make it easy for potential clients or employers to reach you
+- **SEO Optimized**: Built with best practices for search engine visibility
+- **Fast Performance**: Optimized for speed and performance
+- **Easy to Customize**: Simple structure makes it easy to modify for your needs
+
+## Demo
+
+Check out the live demo: [Portfolio Website Demo](https://omerssimsekk.github.io/portfolio/)
 
 ## Project Structure
 
 ```
 portfolio-website
-├── src
+├── public
 │   ├── css
 │   │   └── style.css
-│   ├── js
-│   │   └── main.js
-│   ├── index.html
-│   └── projects.html
+│   └── js
+│       └── main.js
+├── pages
+│   ├── _app.js
+│   └── index.js
+├── next.config.js
+├── vercel.json
 ├── package.json
-├── .gitignore
 └── README.md
 ```
 
-## Features
+## Getting Started
 
-- Responsive design
-- Interactive elements using JavaScript
-- Sections for projects and personal information
+### Option 1: One-Click Deploy with Vercel
 
-## Setup Instructions
+The easiest way to deploy this template is to use the "Deploy with Vercel" button above.
+
+### Option 2: Manual Setup
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/omerssimsekk/portfolio.git
+   cd portfolio
    ```
-2. Navigate to the project directory:
-   ```
-   cd portfolio-website
-   ```
-3. Install dependencies:
+
+2. Install dependencies:
    ```
    npm install
    ```
-4. Start the development server:
+
+3. Start the development server:
    ```
-   npm start
+   npm run dev
    ```
-   This will launch a live server and automatically open the website in your default browser.
 
-5. The website will be available at `http://localhost:8080` by default.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-## Development
+## Customization
 
-- The live server will automatically reload the page when you make changes to any files in the `src` directory.
-- Edit HTML files to update content
-- Modify `css/style.css` to change the styling
-- Update `js/main.js` to add or modify interactive features
+### Personal Information
+
+Edit the `pages/index.js` file to update:
+- Your name and title
+- About section content
+- Contact information
+- Education details
+
+### Projects
+
+Modify the project cards in the `pages/index.js` file to showcase your own work:
+- Project title
+- Description
+- Technologies used
+- Links to GitHub and live demos
+
+### Styling
+
+Customize the look and feel by editing:
+- `public/css/style.css` for general styling
+- Color schemes, fonts, and spacing
+
+## Deployment
+
+This template is optimized for deployment on Vercel. After customizing:
+
+1. Push your changes to GitHub
+2. Connect your repository to Vercel
+3. Deploy with a single click
 
 ## Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
-- npm
-- live-server for local development
+- Next.js
+- Vercel for deployment
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
 
 ## Author
 
 Ömer Faruk Şimşek - A computer science student passionate about web development and software engineering.
+
+## Acknowledgements
+
+- Font Awesome for icons
+- Google Fonts for typography
+- Vercel for hosting
