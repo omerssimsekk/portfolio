@@ -115,8 +115,7 @@ body {
     text-align: center;
     padding: 0 1rem;
     position: relative;
-    background: linear-gradient(rgba(17, 17, 17, 0.9), rgba(17, 17, 17, 0.9)),
-                url('../images/hero-bg.jpg') center/cover;
+    background: linear-gradient(rgba(17, 17, 17, 0.95), rgba(17, 17, 17, 0.95));
     overflow: hidden;
 }
 
@@ -994,8 +993,7 @@ body.dark-mode .nav-links a {
 }
 
 body.dark-mode .hero {
-    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
-                url('../images/hero-bg.jpg') center/cover;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
 }
 
 body.dark-mode .btn.primary {
