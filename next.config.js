@@ -5,10 +5,11 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Treat the src directory as the root for static files
-  basePath: '',
   // Disable React strict mode for compatibility with existing code
   reactStrictMode: false,
+  // Ensure all static files are copied
+  distDir: 'out',
+  trailingSlash: true,
 };
 
 module.exports = nextConfig; 

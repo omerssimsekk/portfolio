@@ -1,6 +1,6 @@
 {
   "version": 1,
   "hasExportPathMap": false,
-  "exportTrailingSlash": false,
+  "exportTrailingSlash": true,
   "isNextImageImported": false
 }
